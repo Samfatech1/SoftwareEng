@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Samfatech IT Solutions</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body{
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: white;
+      }
+      header,section, footer{
+        padding: 20px;
+      }
+      .hero
+      {
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+
+      }
+      .hero h1{
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+      .hero p{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+      }
+      .hero button{
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: white;
+        color: blue;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+      }
+      .features{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: white;
+      }
+      .feature{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(33% - 20px);
+        background-color: #e0e0e0;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+      }
+      .feature i{
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: blue;
+      }
+      @media (max-width: 768){
+        .feature{
+          flex: 1 1 100%;
+        }
+
+      }
+      footer{
+        background-color:#333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      footer a {
+        color: #ccc;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+    </style>
+
+</head>
+<body>
+    <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to Samfatech IT Solutions</h1>
+    <p>Your hub for hands-on training in Python, Data Analytics, and Machine Learning.</p>
+    <button>Register Now</button>
+  </header>
+  <section class="features">
+    <div class="feature">
+      <i class="fas fa-chart-line"></i>
+      <h3>Data Analysis</h3>
+      <p>Master Excel, Power BI, and data storytelling with real-world projects and case studies.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-brain"></i>
+      <h3>Machine Learning</h3>
+      <p>Learn to build smart models using Python, Scikit-learn, and practical datasets.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-code"></i>
+      <h3>Python Programming</h3>
+      <p>From zero to hero: Learn Python programming for automation, analytics, and app development.</p>
+    </div>
+  </section>
+  <footer>
+    <p>Contact us : fatai.s.amusa@gmail.com | 08062077444</p>
+    <p>
+      <a href="https://x.com/fatai4best">Twitter</a> |
+      <a href="https://facebook.com/famusa1">Facebook</a> |
+      <a href="https://linkedin.com/in/fatai-amusa-783bb968">Linkedin</a>
+    </p>
+    <p>&copy; 2025 Samfatech. All rights reserved</p>
+  </footer>
+</body>
+</html>
